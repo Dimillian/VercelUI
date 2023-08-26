@@ -7,4 +7,4 @@
 
 @_exported import Vercel
 @_exported import TokamakCore
-@_exported import TokamakStaticHTML
+@_exported import TokamakShim
