@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .target(name: "VercelUI", dependencies: [
             "Vercel",
-            .product(name: "TokamakStaticHTML", package: "Tokamak")
+            .product(name: "TokamakShim", package: "Tokamak")
         ])
     ]
 )
